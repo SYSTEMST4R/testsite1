@@ -1,0 +1,195 @@
+/*Ко всему документу*/
+
+body {
+	padding: 0;
+	margin: 0 auto;
+	width: 1280px;
+}
+
+*{
+	box-sizing: content-box;
+}
+
+a{
+	text-decoration: none;
+}
+
+h2{
+	text-align: center;
+	font-family: Jura;
+	font-style: normal;
+	font-size: 36px;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+.header{
+	width: 1280px;
+	height: 300px;
+	margin: 0 auto;
+	margin-top: 0;
+	background: url(../img/contact_header.png);
+	background-repeat: no-repeat;
+}
+
+.headertext{
+	font-family: Russo One;
+	font-family: Russo One;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 100%;
+	letter-spacing: 0.15em;
+	color: #FFFFFF;
+	-webkit-text-stroke: 0.05em black;
+	text-transform: uppercase;
+	margin-left: 130px;
+	margin-top:126px;
+	display: inline-block;
+}
+
+p{
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.leftbox{
+	width: 580px;
+	margin-left: 20px;
+	margin-right: 40px;
+	float: left;
+}
+
+.rightbox{
+	display: block;
+	font-family: Jura;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	letter-spacing: 0.1em;
+}
+
+footer{
+	display: flex;
+	margin: 0 auto;
+	width: 1280px;
+	}
+
+.footer{
+	margin-top: 30px;
+	height: 150px;
+	width: 1280px;
+	background: linear-gradient(to top, #808080, #fff 80%);
+	}
+
+.footerlogo{
+	width: 97.09px;
+	height: 100px;
+	margin-top: 25px;
+	margin-left: 60px;
+	float: left;
+}
+
+.footertext1{
+	text-align: left;
+	margin-left: 40px;
+	margin-top: 57px;
+	box-sizing: content-box;
+	display: inline-block;
+}
+
+.divhome{
+margin-left: 50px;
+margin-top: 50px;
+display: inline-block;
+}
+
+.bottomhome{
+	height: 50px;
+	width: 50px;
+	margin-right: 50px;
+	display: inline-block;
+	margin-left: 50px;
+	transition: 1.5s;
+	}
+
+.bottomhome:hover{
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+	transform: scale(1.2);
+}
+
+.footertext2{
+	margin-top: 57px;
+	margin-right: 40px;
+	text-align: left;
+	box-sizing: content-box;
+	display: inline-block;
+	}
+
+.imginst{
+	height: 50px;
+	width: 50px;
+	background-image:url(../img/nav/inst.png);
+	background-size: 50px, 50px;
+	margin-top: 50px;
+	margin-right:20px;
+	display: inline-block;
+	transition: 1s;
+}
+
+.imginst:hover{
+	height: 50px;
+	width: 50px;
+	background-image:url(../img/nav/inst1.png);
+	background-size: 50px, 50px;
+	margin-top: 50px;
+	margin-right:20px;
+	display: inline-block;
+	
+}
+
+.imgfb{
+	height: 50px;
+	width: 50px;
+	background-image:url(../img/nav/fb.png);
+	background-size: 50px, 50px;
+	margin-top: 50px;
+	margin-right:20px;
+	display: inline-block;
+	transition: 1s;
+}
+
+.imgfb:hover{
+	height: 50px;
+	width: 50px;
+	background-image:url(../img/nav/fb1.png);
+	background-size: 50px, 50px;
+	margin-top: 50px;
+	margin-right:20px;
+	display: inline-block;
+	}
+
+.imgtw{
+	height: 50px;
+	width: 50px;
+	background-image:url(../img/nav/tw.png);
+	background-size: 50px, 50px;
+	margin-top: 50px;
+	margin-right:40px;
+	display: inline-block;
+	transition: 1s;
+}
+
+.imgtw:hover{
+	height: 50px;
+	width: 50px;
+	background-image:url(../img/nav/tw1.png);
+	background-size: 50px, 50px;
+	margin-top: 50px;
+	margin-right:40px;
+	display: inline-block;
+	
+}
